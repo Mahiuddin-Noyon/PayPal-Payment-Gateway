@@ -64,7 +64,7 @@ class PaymentController extends Controller
 
                 $payment->save();
 
-                return "Payment is successful. Transaction ID: ".$transaction_data['id'];
+                return "Payment Successfully Vompleted. Transaction ID: ".$transaction_data['id'];
             }else{
                 return $response->getMessage();
             }
